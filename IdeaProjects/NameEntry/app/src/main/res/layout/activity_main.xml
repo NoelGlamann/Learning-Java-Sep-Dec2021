@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+    <TextView
+            android:text="@string/title"
+            android:layout_width="399dp"
+            android:layout_height="47dp" android:id="@+id/Name"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.125"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1" android:gravity="center_horizontal"
+            android:textColor="#2C5CDC"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/nameEntry"
+            app:layout_constraintTop_toBottomOf="@+id/Name" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginTop="64dp"
+            android:hint="@string/enter_hint"/>
+    <Button
+            android:text="@string/add_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/addButton"
+            app:layout_constraintTop_toBottomOf="@+id/nameEntry" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginTop="76dp"
+            app:layout_constraintHorizontal_bias="0.235" android:onClick="AddClick"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/searchButton"
+            app:layout_constraintTop_toBottomOf="@+id/nameEntry" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/addButton" android:layout_marginTop="76dp"
+            app:layout_constraintHorizontal_bias="0.515" android:text="@string/search_button"
+            android:onClick="SearchClick"/>
+    <TextView
+            android:layout_width="256dp"
+            android:layout_height="172dp" android:id="@+id/textView"
+            app:layout_constraintTop_toBottomOf="@+id/addButton"
+            android:layout_marginTop="80dp" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.497" app:layout_constraintVertical_bias="0.051"
+            android:background="#E4E4E4"/>
+    <Button
+            android:text="@string/display_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/displayButton"
+            app:layout_constraintTop_toBottomOf="@+id/nameEntry"
+            app:layout_constraintBottom_toTopOf="@+id/textView" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintVertical_bias="0.844" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.507" android:onClick="DisplayClick"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

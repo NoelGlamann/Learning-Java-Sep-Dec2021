@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FinalApp</string>
+    <string name="app_title_box">My Goal Tracker</string>
+    <string name="goal_entry_hint">Enter Goal</string>
+    <string name="add_button">Add as New</string>
+    <string name="search_button">Search Goal</string>
+    <string name="update_label">Update Goals Below</string>
+    <string name="update_button">Complete</string>
+    <string name="edit_goal_label">Goal to Update</string>
+    <string name="edit_status_label">Updated Status</string>
+    <string name="display_button">Display All</string>
+</resources>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">movieNight</string>
+    <string name="title">Movie Night Planner</string>
+    <string name="movie_entry_hint">Enter New Movie</string>
+    <string name="snack_entry_hint">Enter New Snack</string>
+    <string name="add_button">ADD</string>
+    <string name="subtitle">Create Movie Night Below</string>
+    <string name="search_bar">Search for Preferred Movie</string>
+    <string name="random_button">Randomize?</string>
+    <string name="create_button">SUBMIT</string>
+    <string name="results">Your results will display here.</string>
+</resources>

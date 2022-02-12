@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Uml</string>
+    <string name="title_string">Student Stats</string>
+    <string name="name_string">Name</string>
+    <string name="age_string">Age</string>
+    <string name="female_string">Female</string>
+    <string name="create_string">Create</string>
+    <string name="bday_string">BDAY</string>
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">highRoller</string>
+    <string name="title_name">High Roller Dice Game</string>
+    <string name="button_name">Roll</string>
+    <string name="roundLabel_label">Round: 1</string>
+    <string name="p1_name">Player 1 </string>
+    <string name="p2_name">Player 2 </string>
+    <string name="p3_name">Player 3 </string>
+    <string name="score_start">0</string>
+    <string name="roll_start">1</string>
+</resources>
